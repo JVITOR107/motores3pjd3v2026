@@ -75,6 +75,10 @@ public class GameManager : MonoBehaviour
             case "GetStarted_Scene":
                 ChangeState(GameState.Gameplay);
                 break;
+            
+            case "GUI":
+                ChangeState(GameState.Gameplay);
+                break;
 
             default:
                 Debug.LogWarning("[GameManager] Cena sem estado definido: " + sceneName);
